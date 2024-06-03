@@ -1229,7 +1229,7 @@ section {
   padding: 30px;
   background: #fff;
   width: 100%;
-  border: 2px solid #e9ecee;
+  border: 2px solid #ff0000;
   border-radius: 4px;
 }
 
@@ -1295,7 +1295,7 @@ section {
   width: 100%;
   padding: 30px;
   background: #fff;
-  border: 2px solid #e9ecee;
+  border: 2px solid #ff0000;
   border-radius: 4px;
 }
 
@@ -1350,7 +1350,7 @@ section {
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 4px !important;
   box-shadow: none;
   font-size: 14px;
 }
