@@ -1,3 +1,14 @@
+/* Accordion */
+
+.accordion-button.collapsed::after {
+  color: #ff0000; /* Change to the desired color */
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
 /*** Spinner ***/
 #spinner {
   opacity: 0;
@@ -64,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #114232;
+  background: #ff3e3e;
   color: #fff;
 }
 
@@ -356,6 +367,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.mt-0{
+  margin-top: 0 !important;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -407,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #114232;
+  background: #ff3e3e;
 }
 
 #hero .hero-img {
@@ -631,35 +646,35 @@ section {
 }
 
 .services .icon-box-pink .icon i {
-  color: #ff689b;
+  color: #ff3e3e;
 }
 
 .services .icon-box-pink:hover {
-  border-color: #ff689b;
+  border-color: #ff3e3e;
 }
 
 .services .icon-box-cyan .icon i {
-  color: #3fcdc7;
+  color: #ff3e3e;
 }
 
 .services .icon-box-cyan:hover {
-  border-color: #3fcdc7;
+  border-color: #ff3e3e;
 }
 
 .services .icon-box-green .icon i {
-  color: #41cf2e;
+  color: #ff3e3e;
 }
 
 .services .icon-box-green:hover {
-  border-color: #41cf2e;
+  border-color: #ff3e3e;
 }
 
 .services .icon-box-blue .icon i {
-  color: #114232;
+  color: #ff3e3e;
 }
 
 .services .icon-box-blue:hover {
-  border-color: #114232;
+  border-color: #ff3e3e;
 }
 
 /*--------------------------------------------------------------
@@ -814,6 +829,7 @@ section {
   display: inline-block;
   padding: 10px 30px;
   border-radius: 4px;
+  text-decoration: none !important;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -821,7 +837,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #114232;
+  background: #ff3e3e;
 }
 
 @media (min-width: 1024px) {
@@ -1662,7 +1678,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #114232;
+  background: #ff3e3e;
 }
 .montserrat-script {
   font-family: 'Montserrat', sans-serif !important;
@@ -1671,7 +1687,7 @@ section {
   color: #FF0000 !important;
 }
 .wiretree-rgb:hover {
-  color: #114232 !important;
+  color: #ff3e3e !important;
 }
 #footer .copyright {
   text-align: center;
