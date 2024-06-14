@@ -1,3 +1,51 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const options = { 
+        useEasing: true, 
+        useGrouping: true, 
+        separator: ',', 
+        decimal: '.', 
+    };
+
+    const counters = [
+        { id: 'projects-count', endVal: 21 },
+        { id: 'contract-value-count', endVal: 500000, options: { ...options, prefix: 'R' } },
+        { id: 'clients-count', endVal: 33 },
+        { id: 'staff-count', endVal: 18 },
+        { id: 'fleet-count', endVal: 233 },
+    ];
+
+    const observerOptions = {
+        root: null, // Use the viewport as the root
+        rootMargin: '0px',
+        threshold: 0.1 // Trigger when 10% of the target is visible
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const counterData = counters.find(counter => counter.id === entry.target.id);
+                const counter = new CountUp(entry.target.id, 0, counterData.endVal, 0, 2.5, counterData.options || options);
+                startCount(counter);
+                observer.unobserve(entry.target); // Stop observing once the counter has started
+            }
+        });
+    }, observerOptions);
+
+    counters.forEach(counter => {
+        const element = document.getElementById(counter.id);
+        observer.observe(element);
+    });
+
+    function startCount(counter) {
+        if (!counter.error) {
+            counter.start();
+        } else {
+            console.error("CountUp error:", counter.error);
+        }
+    }
+});
+
+
 
 // Spinner Home
   var spinner = function () {

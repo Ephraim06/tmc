@@ -1,3 +1,65 @@
+.card-title {
+  font-weight: 900 !important;
+}
+
+.section {
+  background: #f7f8f9;
+  padding: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  margin-left: .5px;
+  margin-right: .5px;
+  min-width: 150px;
+}
+
+.module {
+  background: #e4e4e6;
+  padding: 20px;
+  border-radius: 5px;
+  width: 160px !important;
+  height: auto !important;
+  margin: auto !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blurb-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ff0000 !important;
+}
+
+.blurb-container {
+  text-align: center;
+}
+
+.module-header {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.blurb-description {
+  font-size: 1em;
+  margin: 5px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -413,7 +475,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .masthead-text {
-  margin-top: 150px !important;
+  margin-top: 250px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .masthead-text {
+      margin-top: 150px !important;
+    }
 }
 
 #hero h1 {
