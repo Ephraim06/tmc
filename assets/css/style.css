@@ -1175,16 +1175,13 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-wrap {
-  border-top: 1px solid #eceff0;
-  border-left: 1px solid #eceff0;
+  border: none !important;
 }
 
 .clients .client-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #eceff0;
-  border-bottom: 1px solid #eceff0;
   overflow: hidden;
   background: #fff;
   height: 120px;
