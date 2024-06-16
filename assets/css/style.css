@@ -1,3 +1,18 @@
+.our-services-card {
+  border: #fff !important;
+  background-color: #f7f8f9 !important;
+}
+
+.our-services-card:hover {
+  border: 2px solid #ff0000 !important;
+  cursor: pointer;
+  transition: ease-in .10s;
+}
+
+.our-services-card-img-top {
+  border-radius: 5px !important;
+}
+
 .list-group {
   width: 50% !important;
   align-items: center;
@@ -1360,8 +1375,7 @@ section {
   padding: 30px;
   background: #fff;
   width: 100%;
-  border: 2px solid #ff0000;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .contact .info i {
@@ -1426,8 +1440,11 @@ section {
   width: 100%;
   padding: 30px;
   background: #fff;
-  border: 2px solid #ff0000;
-  border-radius: 4px;
+  border-radius: 5px;
+}
+
+iframe {
+  border-radius: 5px !important;
 }
 
 .contact .php-email-form .form-group {
