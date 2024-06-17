@@ -3,11 +3,11 @@
   background-color: #f7f8f9 !important;
 }
 
-.our-services-card:hover {
+/* .our-services-card:hover {
   border: 2px solid #ff0000 !important;
   cursor: pointer;
   transition: ease-in .10s;
-}
+} */
 
 .our-services-card-img-top {
   border-radius: 5px !important;
