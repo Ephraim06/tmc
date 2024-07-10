@@ -1,3 +1,23 @@
+.view-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #FF0000;
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  background: #ff3e3e;
+  color: #fff;
+}
+
 .details-section {
   font-size: 200px !important;
   color: #ff0000 !important;
@@ -143,6 +163,10 @@ a {
 
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+.mb-5 {
+  margin-bottom: 10px !important;
 }
 
 @media only screen and (max-width: 600px) {
