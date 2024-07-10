@@ -76,7 +76,7 @@
     font-size: 100px !important;
     color: #ff0000 !important;
 }
-.details-content{
+/* .details-content{
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -84,7 +84,7 @@
     border-radius: 30px;
     padding: 25px 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+} */
 }
 
 .list-group-item:hover {
