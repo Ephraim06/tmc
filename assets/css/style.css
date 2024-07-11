@@ -1,3 +1,98 @@
+
+.project-img {
+  width: 50%;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+  }
+  .f-carousel__slide {
+    padding: 5px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0 !important;
+    margin: 0 !important;
+  }
+  #fancy-box {
+    display: block !important;
+    margin: 0% !important;
+    margin-top: 2rem !important;
+    height: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+#myCarousel {
+  --f-carousel-slide-height: 60%;
+  --f-carousel-spacing: 10px;
+  width: 100% !important;
+}
+
+#myCarousel .f-carousel__slide {
+  padding: 10px;
+  height: 100% !important;
+}
+
+#fancy-box {
+  display: flex;
+  margin-left: 10%;
+  height: 100% !important;
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+.fancybox__backdrop::after {
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  filter: blur(2px);
+  left: 50%;
+  top: 50%;
+  transform: scale(11);
+  opacity: 0.3;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fancybox__backdrop {
+  background: rgba(128, 128, 128, 0.88);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+.fancybox__toolbar {
+  padding: 16px;
+}
+
+.fancybox__toolbar,
+.fancybox__nav {
+  --f-button-border-radius: 50%;
+  --f-button-bg: rgb(91 78 76 / 64%);
+  --f-button-hover-bg: rgb(91 78 76 / 74%);
+  --f-button-active-bg: rgb(91 78 76 / 84%);
+}
+
+.fancybox__nav {
+  --f-button-svg-width: 22px;
+  --f-button-svg-height: 22px;
+}
+
+.fancybox__thumbs.is-classic {
+  --f-thumb-width: 48px;
+  --f-thumb-height: 48px;
+  --f-thumb-gap: 16px;
+
+  --f-thumb-border-radius: 6px;
+  --f-thumb-outline: 0;
+}
+
 .view-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
