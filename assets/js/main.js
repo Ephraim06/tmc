@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const counters = [
         { id: 'projects-count', endVal: 21 },
-        { id: 'contract-value-count', endVal: 500000, options: { ...options, prefix: 'R' } },
+        { id: 'contract-value-count', endVal: 489467, options: { ...options, prefix: 'R' } },
         { id: 'clients-count', endVal: 33 },
         { id: 'staff-count', endVal: 18 },
         { id: 'fleet-count', endVal: 233 },
